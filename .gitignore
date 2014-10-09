@@ -56,3 +56,7 @@ target/
 
 # venv excluded
 venv/
+
+
+local_settings.py
+
