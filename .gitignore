@@ -61,4 +61,6 @@ venv/
 local_settings.py
 
 *.swp
+*.swo
+*.swn
 
