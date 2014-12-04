@@ -79,6 +79,8 @@ def predict(request):
     final = stats.mode([tup[1] for tup in predictions])
     yes = math.floor(final[1][0]/len(predictions)*100)
     no = math.ceil(100-yes)
+    print " PRED LENGTH"
+    print len(predictions)
     #data_return = json.loads(predictions)
     context = {'votes' : predictions, 'final': final, 'yes': yes, 'no': no}
     html = render_to_string('query_folketinget/show_predictions.html', context)
