@@ -1,4 +1,4 @@
-
-.hide_summary {
-	display: none;
+#prediction_results {
+    margin-top: 40px;
 }
+

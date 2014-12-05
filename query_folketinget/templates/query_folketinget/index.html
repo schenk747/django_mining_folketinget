@@ -70,12 +70,11 @@
 				<textarea class="form-control" rows="6" id="resume" name="summary"></textarea>
 			</div>
 			<button id="btn_predict" class="btn btn-danger" type="submit">
-				Predict <!--<span class=" glyphicon glyphicon-search"></span>-->
-			</button>
+                Predict 			
+            </button>
 		</form>
 	</div>
 	<div id="prediction_results">
-		{#		{% include "query_folketinget/show_predictions.html" %} #}
 	</div>
 <script>
 		var csrftoken = '{{ csrf_token }}';
